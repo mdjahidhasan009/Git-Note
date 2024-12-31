@@ -295,5 +295,21 @@ Version control design assets like mockups and prototypes for easy collaboration
 Tools like "git log --graph" or graphical clients like GitKraken can visualize your Git history in a user-friendly format, helping you understand branching and merging activity at a glance.
 
 
+# Conventional Commits (Popular Standard)
+
+| **Prefix**   | **Meaning**                                                                                            |
+|--------------|--------------------------------------------------------------------------------------------------------|
+| `feat`       | A new feature                                                                                          |
+| `fix`        | A bug fix                                                                                              |
+| `docs`       | Documentation only changes                                                                             |
+| `style`      | Changes that do not affect the meaning of the code (white-space, formatting, missing semicolons, etc.) |
+| `refactor`   | A code change that neither fixes a bug nor adds a feature                                              |
+| `perf`       | A code change that improves performance                                                                |
+| `test`       | Adding missing tests or correcting existing tests                                                      |
+| `build`      | Changes that affect the build system or external dependencies (e.g., npm, yarn, webpack)               |
+| `ci`         | Changes to CI configuration files and scripts                                                          |
+| `chore`      | Other changes that don’t modify `src` or `test` files                                                  |
+| `revert`     | Reverts a previous commit                                                                              |
+
 ### Source
 * [Mastering Version Control with Git: Beyond the Basics](https://dev.to/gauri1504/mastering-version-control-with-git-beyond-the-basics-44ib)
